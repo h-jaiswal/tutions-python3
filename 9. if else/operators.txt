@@ -1,0 +1,49 @@
+Relational Operators are Operators which are used to Compare Things
+
+These are:
+
+CATERGORY 1 
+
+NOTE -> Only works for comparing numbers
+
+a > b   Here > means greater than operator.
+
+Here a > b gives True IF value of a is GREATER THAN b OTHERWISE it gives False
+
+Similiary we have < i.e. less than operator example a < b  gives True IF value of a is LESS THAN b OTHERWISE it gives False
+
+
+
+a >= b   Here >= means greater than or equal to operator
+
+Here a >= b  gives  True  IF value of a is either greater than b or equal to b OTHERWISE False
+
+Similiary we have <= i.e. less than or equal to operator example a <= b  gives True IF value of a is LESS THAN or EQUAL TO b OTHERWISE it gives False
+
+
+
+CATERGORY 2 
+
+NOTE: Works for boths strings and numbers
+example, 
+        myname = "Harshit
+        yourname = "Rishav"
+        myname == yourname gives False
+
+a == b   
+
+Here == is called "is equal to" operator
+
+a == b 
+
+Gives True  IF value and data type (numbers(float or int) and string etc.) of a and b are both equal OTHERWISE it gives False
+
+
+
+
+a != b
+
+Here != is called "not equal to" operator
+
+
+Gives True  IF value and data type (numbers(float or int) and string etc.) of a and b are both NOT equal OTHERWISE it gives False

@@ -1,0 +1,14 @@
+LOGICAL Operators
+
+are used to combined two or more conditions
+
+These are
+
+
+and 
+
+
+or 
+
+
+not 
