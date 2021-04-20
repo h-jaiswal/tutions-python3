@@ -2,13 +2,79 @@ LOGICAL Operators
 
 are used to combined two or more conditions
 
+What is a condition ?   A condition is an expression which either gives True as final value or False as final value
+
+example. 
+
+10 > 12 
+
+age >= 18
+
+amount == 0
+
+sum != 0
+
+
+Now we can combine two or more condition using LOGICAL Operators.
+
+
 These are
 
 
-and 
+and Operator
+
+condition1 and condition2
+
+Definition of and operator : will give True if and only if both condition1 and condition2 are True
+
+otherwise it gives False in other cases.
+
+Possible 4 cases
+
+True and True  will give final result as True
+
+True and False  will give final result as False
+
+False and True  will give final result as False
+
+False and False  will give final result as False
 
 
-or 
 
 
-not 
+or Operator
+
+condition1 or condition2
+
+Definition of or operator : will give True if and only if ATLEAST ONE OF condition1 and condition2 is/are True
+                            otherwise it gives False in other cases.
+
+In other words: condition1 or condition2 gives False if and only if both condition1 and condition2 are False
+                otherwise it gives True in all other cases.
+
+Possible 4 cases
+
+True or True  will give final result as True
+
+True or False  will give final result as True
+
+False or True  will give final result as True
+
+False or False  will give final result as False
+
+
+
+
+
+
+not operator
+
+not operator is a special operator which inverts a given condition 
+
+example
+
+not (condition)
+
+if condition is True, the doing     not (condition)      will give False
+
+if condition is False, the doing     not (condition)      will give True
