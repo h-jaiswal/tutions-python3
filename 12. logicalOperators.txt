@@ -65,8 +65,6 @@ False or False  will give final result as False
 
 
 
-
-
 not operator
 
 not operator is a special operator which inverts a given condition 
