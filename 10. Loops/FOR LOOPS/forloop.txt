@@ -1,0 +1,57 @@
+There are many ways to use for loop
+
+1. for loop in combination with range(first) function
+
+When to use this combination?
+Use this whenever you want to repeat a set of task for a known number of times
+
+example, to print name 5 times
+
+name = "Rishav"
+for i in range(5):
+    print(name)
+
+i is the loop variable whose value changes from 0 to 4, range comes from the range function
+
+example code
+
+*************
+def main():
+
+    # name = "Rishav"
+    # for i in range(10):
+    #     print(i)
+    #     print(name)
+
+    
+    name = "Rishav"
+    for i in range(10):
+        print( "#" + str(i+1) + " " + name)
+
+    v = 0
+    while(v < 10):
+        print(name)
+        v = v + 1
+
+main()
+*************
+
+
+
+
+2. for loop in combination with range function (first, second)
+
+example
+
+for i in range(5, 10):
+    print(i)
+
+
+output:
+5
+6
+7
+8
+9
+
+NOTE: LOOP repeats from (second argument - first argument) times i.e here 10-5 = 5 times
