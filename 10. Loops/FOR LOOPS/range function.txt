@@ -55,6 +55,9 @@ will give,  -7, -4, -1, 2
 range(5, 0, -1)
 will give,  5, 4, 3, 2, 1    (IMPORTANT)
 
+range(5, -1, -1)
+will give,  5, 4, 3, 2, 1, 0   (IMPORTANT)
+
 range(10, 1, -2)
 will give  10, 8, 6, 4, 2
 
