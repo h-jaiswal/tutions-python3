@@ -1,0 +1,16 @@
+turtle  (small case/letters)
+
+turtle is a pre installed library in python which allows us to draw (shapes, figures, etc) on a virtual canvas (screen).
+
+The on-screen pen that is used to draw is called the turtle (by default, shape of pen is arrow shape, it can be changed tto look like a turtle if we write turtle.shape("turtle") )
+
+turtle library/module needs to be included in your program file before it can be used. To include turtle in your program
+
+we write, import turtle on top of our program file, example,
+
+import turtle
+
+def main():
+    #
+    #
+main()
