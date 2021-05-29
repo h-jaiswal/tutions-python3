@@ -1,0 +1,14 @@
+1.    import random
+
+    This must appear at 
+    the start of your 
+    program otherwise 
+    the random 
+    function will not 
+    work. 
+
+2.  num = random.random()    # random is the module name, and random() is the inbuilt function name
+
+    random.random()     Selects a random    floating-point number (decimal number)    between 0 and 1 
+    and here in above example
+    stores it in a variable called “num”. 
