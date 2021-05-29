@@ -1,0 +1,6 @@
+File Handling
+
+- we read, write or append a file using File Handling in python
+
+- for example, we can save output of a program in a file
+- also, for example, we can read input of a program from a given file
