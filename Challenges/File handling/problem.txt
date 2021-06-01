@@ -1,0 +1,5 @@
+1. make a file with names of people in each line and call it names.txt
+
+2. make a file with current ages of people in each line and called it ages.txt  ( ages in each line will correspond to the name in names.txt)
+
+3. check for each person if he is eligible to vote or not, then output names of all eligible persons in a new file called eligibleVoters.txt
