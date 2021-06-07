@@ -8,10 +8,11 @@ def main():
 
     fruits_tuple = ("apple", "kiwi", "watermelon")
 
-    # another way is using tuple() function
+    tuple1 = (2, 80, -1, -4, 0, 23, 2.4, "String", "Another String", 90)
+
+    # another way is using tuple() function/constructor
 
     fruits_tuple2 = tuple((  "apple", "kiwi", "watermelon", "mango"  ))
-
 
 
 

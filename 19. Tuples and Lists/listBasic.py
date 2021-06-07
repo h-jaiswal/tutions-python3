@@ -43,7 +43,14 @@ def main():
 
 
 
+
     # remove element using elements index
+
+    # to remove the last item from a list
+    # we use pop() function
+    # listname.pop()
+
+    names_list3.pop()     # list becomes -> ["Harsh", "Rishav"]
 
     # if we want to remove i.e delete "Palak" from this list, we can use its index value which is as shown below, names_list2 = ["Harsh", "Rishav", "Palak", "Frank", "David" ]
 
@@ -68,7 +75,7 @@ def main():
 
 
     # we can access the items of a list collection using the index of a particular
-
+    # list_name[ index_value ]
     second_item_value = names_list2[1]
 
 
