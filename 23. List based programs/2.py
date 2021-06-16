@@ -8,7 +8,7 @@ def main():
         ["Joseph", 45],
         ["Vinay", 89],
         ["Rishav", 10]
-    ]    
+    ]   
 
     print( sorted( students, key = keyMarks ) )
 

@@ -1,5 +1,7 @@
 def main():
 
+    # HOME WORK
+
     jeans = [
 
         # [Brand, Rate, Popularity Rating]
