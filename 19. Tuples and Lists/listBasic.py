@@ -9,6 +9,16 @@ def main():
     names_list2 = ["Harsh", "Rishav", "Palak"]
 
 
+
+    # to modify or change value at an index ->
+
+    # eg. to change value at index 1 i.e. "Rishav" to "Peter"
+    # usage -    list_name[index] = new_value
+    
+    names_list2[1] = "Peter"
+
+
+
     # another way is to list()  with item_values seperated by comma
 
     names_list3 = list(( "Harsh", "Rishav", "Palak" ))
