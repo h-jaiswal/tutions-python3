@@ -1,0 +1,39 @@
+# if else in Python can be used to write Decision Making statements
+
+# example - who will vote ?
+
+
+# if else statment starts
+if (condition) :
+    # if starts
+    # note: if part will run only when CONDITION is True
+    all statements come of if part here
+    # if ends
+else :
+    # else starts
+    # note: else part will run only when CONDITION is False
+    all statements of else part come here
+    # else ends
+# if else statement ends
+
+
+NOTE : 
+
+1. else part is optional i.e. if part can be used seperately without else part
+
+2. vice versa is not true
+
+
+
+def main():
+    age = int(input("Enter age: "))
+
+    if (age >= 18) :  # colon is necessary, space after 'if' is necessary
+        # tab space (indentation) is required 
+        print("I am allowed to get voter card and vote.")
+    
+    else :   # colon is necessary
+        # indentation is required
+        print("I am not allowed to vote or even get a voter card.")
+
+    # main continues

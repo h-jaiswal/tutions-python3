@@ -3,14 +3,14 @@ Explain how to create basic string
 """
 
 def main():
-    # name = "Harshit"
-    # print(name)
+    name = "Harshit"
+    print(name)
 
-    # name = 'Harshit'
-    # print(name)
+    name = 'Harshit'
+    print(name)
     
-    # name = input("Enter name")
-    # print(name)
+    name = input("Enter name")
+    print(name)
 
 
 
