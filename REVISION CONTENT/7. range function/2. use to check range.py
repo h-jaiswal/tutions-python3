@@ -13,7 +13,7 @@ def main():
     # code to check if num lies in range {100, 101, 102, ............................., 999}
     # i.e. to check if num lies in range(100, 1000)     (100 inclusive, 1000 exlusive)
 
-
+    # in is an operator
     if (num in range(100, 1000)):
         print("Number lies in range {100, 101, 102, ............................., 999}")
     else:

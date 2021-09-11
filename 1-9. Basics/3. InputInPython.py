@@ -40,7 +40,6 @@ print( type(userInput) )
 # <class 'str'>
 
 42.89
-<class 'str'>
 
 
 
