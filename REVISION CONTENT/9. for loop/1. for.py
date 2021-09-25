@@ -47,9 +47,77 @@ def main():
 
 
     # Analysis for below for loop
-    # loop variable ->  
+    # loop variable -> name
+    # names = ["A", "B", "C", "D"]   
+    # len(names) is FOUR (four items)
+    # loop runs -> FOUR times because names list contains FOUR items
+    # name ->  { first time = "A" , second time = "B" , third time = "C", fourth time = "D" }
     names = ["A", "B", "C", "D"]
 
     for name in names:
         print(name)
+
+
+
+
+    print()
+    
+    names = ("A", "B", "C", "D")
+
+    for name in names:
+        print(name)
+
+
+
+    print()
+
+    # for with dictionary
+
+
+    # way 1 
+
+    student = {  # dictionary has 3 items (= 3 key-value pairs)
+        'name' : 'Rishav',
+        'roll' : 101,
+        'age' : 14
+    }
+
+    for k,v in student.items():
+        print("{} has value {}".format(k, v))
+
+    print()
+    # changed name of loop variable for key and value
+    for key,value in student:
+        print("{} has value {}".format(key, value))
+
+    for key,value in student:
+        print(key)
+
+    for key,value in student:
+        print(value)
+
+
+
+    # way 2
+
+    # looping over values of a dictionary
+    for v in student.values():
+        print(v)
+
+    # way 3
+
+    # looping over keys of a dictionary
+    for k in student.keys():
+        print(k)
+
+    for k in student.keys():
+        print(student[k])
+    
+    for k in student.keys():
+        print("{} has value {}".format(key, student[k]))
+
+    for k in student.keys():
+        value = student[k]
+        print("{} has value {}".format(key, value))
+        
 main()

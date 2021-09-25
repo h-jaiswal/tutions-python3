@@ -14,6 +14,12 @@ def main():
 
     # isBoy = bool( input("Are you a boy (true or false) - ") )          # WRONG WAY
 
+    # 0
+
+    if ( input("Are you a boy? (yes or no) - ").lower() == "yes"):
+        isBoy = True
+    else:
+        isBoy = False
 
     # 1
     isBoy = False    # Assume
@@ -28,8 +34,12 @@ def main():
     isBoy = input("Are you a boy? (yes or no) - ").lower()
     if (isBoy == "yes"):
         isBoy = True
-    else:
+    elif(isBoy == "no"):
         isBoy = False
+    else:
+        print("Invalid Input")
+        isBoy = ""
+    
     print("isBoy - {}".format(isBoy))
     
 
