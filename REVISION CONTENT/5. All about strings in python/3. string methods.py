@@ -27,6 +27,7 @@ def main():
 
     print( len("Rishav") ) 
 
+    n = len("Rishav")
 
     print( "Number of characters in variable name : " + str( len(name) ))
 
@@ -60,6 +61,7 @@ def main():
     print( name[2 : 11])  # gives part of name string from index 2 upto 1 index before 11 ie. from index 2 upto index 10
 
 
+
     # one more trick
     # reverse
     name = "Rishav"
@@ -67,35 +69,56 @@ def main():
 
 
 
+    #
+    print()
+
+    name = "My name is Shady"
+
+    print( name[2:11:3] )
+    print(name[2:13:3])
+
+    print()
 
 
-
+#   All of lower, upper, capitalize, and title methods DO NOT CHANGE ORIGINAL STRING
+#   and RETURN the NEW VALUE
     sentence = input("Enter a string i.e. sentence: \n")
 
     print( sentence ) # prints orignal value of sentence
     print()
+    print()
 
 
     print("Converting to  lowercase - ")
-
+    print( sentence )
     print( sentence.lower() )  # .lower() converts value of sentence to lowercase, orginial value of sentence remains unchanged
+    print( sentence )
+    print()
     print()
 
     print("Converting to  capitalize - ")
-
+    print( sentence )
     print( sentence.capitalize() )
+    print( sentence )
+    print()
     print()
 
 
     print("Converting to  upper case - ")
-
+    print( sentence )
     print( sentence.upper() )
+    print( sentence )
     print()
 
+    print()
+    print()
 
     print("Converting to  title case - ")
-
+    print( sentence )
     print( sentence.title() )
+    print( sentence )
     print()
+    print()
+
 
 main()
