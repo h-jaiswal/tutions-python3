@@ -3,7 +3,7 @@ def main():
     numbers = [10, 20, 45, -9, 4, 43, 4, 2]
 
     # count = int(input("Enter how many numbers you want in the list? "))
-
+    # numbers = []
     # for i in range(count):
     #     number = int( input("Enter a number: ") )
     #     numbers.append(number)
@@ -20,6 +20,8 @@ def main():
 
     # used to find the minimum value among all values in the list
     # usage -   min(list_name)
+
+    # min() & max() gives ValueError if list is empty
 
     print( "Minimum value : {}".format( min(numbers) ) )
 
@@ -83,7 +85,12 @@ def main():
     print( "Count of 45 : {}".format( numbers.count(45) ) )
 
     
-
-    
+    # v = 3
+    # count = 0
+    # items = [1,2,3, 1, 1, 3]
+    # for i in range(len(items)):
+    #     if v == items[i]:
+    #         count=count+1
+    # print(count)
     
 main()

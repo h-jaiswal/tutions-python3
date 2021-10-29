@@ -61,9 +61,16 @@ def main():
     print(sizes)
 
     print( sorted( sizes , reverse=True ) )    # descending order
+    print()
+    print()
 
-    print()
-    print()
+
+    temp = sorted( sizes , reverse=True )
+
+    print(temp)
+    print(type(temp))
+
+    
 
 
 main()

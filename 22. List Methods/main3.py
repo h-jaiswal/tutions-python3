@@ -1,7 +1,8 @@
 def main():
     # Using * operator with list
 
-    # list1 = ["Pen", "Notebook"] * 3
+    # list1 = ["Pen", "Notebook"] * 3     
+    # Output -> ["Pen", "Notebook", "Pen", "Notebook", "Pen", "Notebook"]
 
     # print(str(list1)) 
 

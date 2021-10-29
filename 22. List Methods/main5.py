@@ -30,6 +30,21 @@ def main():
 
     print( "Reversed list is : " + str( list( reversed(items) ) ) )
 
-    print( items )
+    temp = reversed(items)
+    print( temp )
+    print( type(temp) )
 
+
+    for value in temp:
+        print(value, end=" ")
+        
+    print()
+    print()
+
+    temp = list(reversed(items))
+    print( temp )
+    print( type(temp) )
+
+    print()
+    print()
 main()
