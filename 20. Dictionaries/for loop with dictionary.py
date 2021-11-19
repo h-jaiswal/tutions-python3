@@ -30,7 +30,9 @@ def main():
 
 
     for key in student.keys() :
-        print(student[key])
+        print(key)          # key
+        print(student[key]) # value
+        print()
 
 
     print()

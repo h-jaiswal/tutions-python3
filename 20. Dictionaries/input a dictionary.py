@@ -1,13 +1,20 @@
-def main():
-
-    # initialize a student dictionary with default values
-    # default value is a starting value - or any invalid values
-    student = {
+""""
+student = {
         "name" : "",
         "marks" : -1,
         "standard" : -1
     }
 
+"""
+
+def main():
+
+    # initialize a student dictionary with default values
+    # default value is a starting value - or any invalid values
+    
+    student = {}
+
+    
     name = input("Enter name: ")
     marks = int(input("Enter marks: "))
     standard = int(input("Enter standard (class only): "))
@@ -17,6 +24,12 @@ def main():
     student["marks"] = marks 
     student["standard"] = standard
 
+
+
+
+    # student["name"] = input("Enter name: ")
+    # student["marks"] = int(input("Enter marks: "))
+    # student["standard"] = int(input("Enter standard (class only): "))
 
     print(str(student))
 

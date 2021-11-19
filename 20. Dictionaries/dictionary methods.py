@@ -7,13 +7,23 @@ def main():
         "score" : 99
     }
 
+    # user = {}    # empty dict.
+
+    # user = {
+    #     "name" : {
+    #         "first" : "Rishav",
+    #         "middle": "",
+    #         "last": "Kumar"
+    #     },
+    #     "username" : "striver",
+    #     "score" : 99
+    # }
 
     print( str(user) )
 
-    # for k,v in user.items():
-    #     print("{} - {}".format(k,v))
-
-
+    print(user["name"])
+    print(user["score"])
+    print()
     print(user.get("name"))
     print(user.get("score"))
 
@@ -25,6 +35,9 @@ def main():
     
 
     print(str(user))
+    print(user.items())
+    print(user.values)
+    print(user.keys())
 
     # user.items()
     # user.values()

@@ -20,17 +20,17 @@
         # "standard" : 7 
 
         "stardard" : {
-            "standard" : 7,
+            "class" : 7,
             "section" : "A"
         },      
 
-        # marks : 96,
+        marks : 96,
 
         # # -1 means Absent on test day
         # marks : [10, 94, 78, -1, 76]
 
         # -1 means Absent on test day
-        "marks": {
+        # "marks": {
             "maths" : 10,
             "science" : 94,
             "english" : 78,
@@ -45,8 +45,10 @@ from datetime import date
 
 def main():
 
+    # Creating the student dict. (empty)
     student = {}
 
+    # Input 1st key of student dict
     name = {}
 
 
@@ -73,6 +75,7 @@ def main():
     student["name"] = name
 
 
+    # Input 2nd key of student dict
 
     dateOfBirth = {}
 
@@ -86,6 +89,7 @@ def main():
     student["dateOfBirth"] = dateOfBirth
 
 
+    # Input 3rd key of student dict
 
     # calucate age from dateOfBirth
 
@@ -99,6 +103,7 @@ def main():
 
 
 
+    # Input 4th key of student dict
 
     standard = {}
 
@@ -110,13 +115,12 @@ def main():
     # add a new key-value pair to student dictionary
     student["standard"] = standard 
 
+    # Input 5th key of student dict
 
     marks = input("Enter average marks: ")
     
     # add a new key-value pair to student dictionary
     student["marks"] = marks 
-
-
 
 
     for key,value in student.items():

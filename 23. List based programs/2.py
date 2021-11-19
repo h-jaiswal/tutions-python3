@@ -4,20 +4,25 @@ def main():
 
     students = [
         ["Piyush", 100],
-        ["Shivam", 69],
+        ["Bhavesh", 69],
         ["Joseph", 45],
-        ["Vinay", 89],
+        ["Abhi", 69],
         ["Rishav", 10]
     ]   
-
-    print( sorted( students, key = keyMarks ) )
-
+    # ONLY MARKS
+    print( sorted( students, key = keyMarks, reverse=True ) )
+    print()
+    #print(students)
 
     # Example - Attendance list (sorting in ascending order on basis of name)
-    
 
+    # ONLY NAME
     print( sorted( students, key = keyNames ) )
-    
+    print()
+
+    # FIRST SORTING (DESC) On basis of marks AND then sorting (ASCE) on basis of name
+
+
 
 def keyNames(item):
     return item[0]

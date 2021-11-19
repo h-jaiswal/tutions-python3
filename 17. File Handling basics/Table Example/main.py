@@ -8,10 +8,11 @@ def main():
 
     # file.readlines()  gives a list of each line in the file, where each line is in the form of a string
 
-    with open("input.txt", mode="r", ) as file:
+# FileNotFoundError: WHEN file does not exist
+    with open("input.txt", mode="r", encoding="utf-8") as file:
         numbers = file.readlines()
 
-    for number in numbers:
+    for number in numbers:     # number -> str type
         number = int(number)
 
         output = []
@@ -23,7 +24,7 @@ def main():
             output.append(finalResult + "\n")
 
         output.append("\n")
-        filename = "output" + str(number) + ".txt"
+        filename = "output" + str(number) + ".txt"        
         with open(filename , mode="w", encoding="utf-8") as file:
             file.writelines( output )
     
